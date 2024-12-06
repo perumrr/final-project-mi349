@@ -165,14 +165,14 @@ header p {
  .linkedin-link a {
     text-decoration: none;
     color: white;
-    background-color: #0077b5; 
+    background-color: #7E7C61; 
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
  }
 
 .linkedin-link a:hover {
-    background-color: #005983;
+    background-color: #4a493a;
 }
 
   #interests .interest-images {
