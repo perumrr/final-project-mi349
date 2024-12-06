@@ -53,6 +53,16 @@ header p {
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+  header {
+      padding: 10px 0;
+  }
+  .nav-links {
+      flex-direction: column;
+      gap: 10px;
+  }
+}
+
 #skills {
     padding: 40px 0;
     background-color: #D4D5C9; 
@@ -181,6 +191,15 @@ header p {
     font-style: italic;
  }
 
+ @media (max-width: 768px) {
+  .skills-grid {
+      flex-direction: column;
+  }
+  .interest-images {
+      flex-direction: column;
+  }
+ }
+
   #contact {
     padding: 40px 0;
     background-color: #F5F6E9;
@@ -238,6 +257,8 @@ header p {
   .contact-form button:hover {
     background-color: #5c5c3e;
  }
+
+ 
 
 
 
