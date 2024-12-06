@@ -61,9 +61,9 @@ header p {
       flex-direction: column;
       gap: 10px;
   }
-}
+ }
 
-#skills {
+ #skills {
     padding: 40px 0;
     background-color: #D4D5C9; 
     text-align: center;
@@ -156,6 +156,24 @@ header p {
   ul li strong {
     color: #7E7C61;
   }
+
+  .linkedin-link {
+    margin-top: 10px;
+    text-align: center;
+ }
+
+ .linkedin-link a {
+    text-decoration: none;
+    color: white;
+    background-color: #0077b5; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+ }
+
+.linkedin-link a:hover {
+    background-color: #005983;
+}
 
   #interests .interest-images {
     display: flex;
